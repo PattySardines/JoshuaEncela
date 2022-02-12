@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.full-width {
+    width: 100%;
+    background-color: white;
+    height: 620px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.main {
+    width: 1100px;
+    /* height: 800px; */
+    margin: 50px auto;
+    /* background-color: blue; */
+    margin-bottom: 0;
+}
+
+.maintwo {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.full-width-two {
+    width: 100%;
+    background-color: rgb(206, 205, 205);
+}
+
+
+/* header */
+header {
+    /* background-color: rgb(182, 216, 114); */
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    /* background-color: rosybrown;    */
+}
+
+header .header-left h2 {
+    margin: 0 0 10px 0;
+    /* background-color: green; */
+}
+
+header .header-left p {
+    /* background-color: yellow; */
+    margin: 0;
+}
+
+.header-left {
+    /* background-color: rosybrown; */
+    width: max-content;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a {
+    text-decoration: none;
+    /* justify-self: center; */
+    color: black;
+    align-self: center;
+    /* background-color: blueviolet; */
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+/* .navigation a:nth-child(even) {
+    background-color: gray;
+} */
+
+.navigation a:hover {
+    border: cyan 1px solid;
+    color: cyan;
+    
+}
+
+.navigation {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+}
+
+/* icons */
+.icons {
+    /* background-color: blanchedalmond; */
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.icons a {
+    width: 10px;
+    align-self: center;
+    transform: scale(1.6);
+    color: black;
+}
+
+.icons .twitter:hover {
+    color: #1DA1F2;
+    /* background-color: red; */
+}
+
+.icons .instagram:hover {
+    color: #8a3ab9;
+}
+
+.icons .facebook:hover {
+    color: #4267B2;
+}
+
+.icons .linkedin:hover {
+    color: red;
+}
+
+/* header */
+
+/* Section 1 */
+#sectionone {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    height: 650px;
+    background-color: #fff;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.introduction {
+    /* align-self: center; */
+    /* height: 90%; */
+    /* background-color: salmon; */
+    /* height: 500px; */
+    margin-top: 160px;
+    text-align: justify;
+    margin-right: 50px;
+    z-index: 1;
+}
+
+.introduction h1 {
+    /* background-color: blueviolet; */
+    margin: 10px 0 10px 0;
+    font-size: 60px;
+}
+
+.introduction p {
+    /* background-color: coral; */
+    margin: 0;
+}
+#button {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    
+}
+.button {
+    padding: 15px;
+    /* background-color: cyan; */
+    border-radius: 3px;
+    width: 95px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    border: cyan 1px solid;
+    color: cyan;
+     /* color: black;  */
+} 
+
+/* .button:nth-child(even) {
+    background-color: black;
+    border: cyan 1px solid;
+    color: cyan;
+} */
+
+/* .button:hover {
+    background-color: black;
+    border: cyan 1px solid;
+    color: cyan;
+} */
+
+.button:hover {
+    background-color: cyan;
+    color: black;
+}
+
+/* right side of sectione 1 // profile pic */
+
+.image-control {
+    /* background-color: green; */
+    margin: 0 auto;
+    width: 100%;
+    height: 40%;
+    /* margin-top: 80px; */
+    /* align-self: center; */
+}
+.profile img {
+    width: 100%;
+    /* height: 100%; */
+    /* margin: 0 auto; */
+    border-radius: 10px;
+    /* align-self: center; */
+    /* height: 100%; */
+}
+
+/* .profile { */
+    /* margin: 20px; */
+    /* margin: 0; */
+    /* display: flex; */
+    /* height: 100%; */
+    /* background-color: red;  */
+    /* display: grid; 
+    /* height: 100%; */
+/* } */ 
+
+.profile {
+    /* background-color: royalblue; */
+    display: grid;
+    align-content: center;
+}
+
+
+/* section 2 || Recent Project */
+
+#sectiontwo {
+    /* height: 650px; */
+    /* background-color: gray; */
+    padding-top: 100px;
+    /* width: ; */
+}
+
+.sectiontwo-top {
+    /* background-color: burlywood; */
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    /* margin-top: 50px; */
+}
+
+.sectiontwo-top h1{
+    margin: 0;
+    /* padding: 0; */
+    font-size: 130px;
+    padding-left: 50px;
+    line-height: 100px;
+}
+
+.sectiontwo-top a {
+    background-color: cyan;
+    padding: 15px;
+    /* margin: 0; */
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    align-self: center;
+    justify-self: end;
+    /* text-align: right;
+    width: 110px; */
+    margin-right: 100px;
+    
+}
+
+.sectiontwo-top a:hover {
+    background-color: gray;
+    border: 1px solid cyan;
+    color: cyan;
+}
+
+.view-all {
+    /* background-color: aqua; */
+    margin: 0;
+    display: grid;
+}
+
+/* project images */
+
+.project-images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    grid-gap: 30px;
+    margin-top: 50px;
+
+    /* background-color: aquamarine; */
+}
+
+.project-images img {
+    margin: 0 auto;
+    /* width: 90%;
+    height: 80%; */
+    width: 95%;
+    height: 80%;
+}
+
+.project-images img:hover {
+    transition: ;
+}
